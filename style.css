@@ -1,0 +1,212 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.border{
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.initial img{
+    width: 650px;
+    border-radius: 15px;
+}
+
+.initial h1{
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.initial p{
+    max-width: 625px;
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 250;
+}
+
+.prep{
+    background-color: hsl(30, 18%, 87%);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.prep h4{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    font-family: "Outfit";
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep ul{
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    li::marker{
+        color: hsl(332, 51%, 32%);;
+    }
+}
+
+.ingr{
+    padding-top: 20px;
+}
+
+.ingr h1{
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingr ul{
+    font-family: "Outfit";
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 25px;
+    color: hsl(24, 5%, 18%);
+    li{
+        padding-left: 10px;
+    }
+    li::marker{
+        color: hsl(14, 45%, 36%);
+    }
+}
+
+
+.inst{
+    padding-top: 20px;
+}
+
+.inst h1{
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.inst ol{
+    font-family: "Outfit";
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 625px;
+    padding-left: 25px;
+    color: hsl(24, 5%, 18%);
+    li{
+        padding-left: 10px;
+    }
+    li::marker{
+        color: hsl(14, 45%, 36%);
+    }
+}
+
+.nutrition h1{
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition p{
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.calories{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 250px;
+    padding-top: 20px;
+    padding-left: 40px;
+    :nth-child(1) {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+    :nth-child(2) {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+}
+}
+
+.carbs{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 268px;
+    padding-top: 20px;
+    padding-left: 40px;
+    :nth-child(1) {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+    :nth-child(2) {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+}
+}
+
+.protein{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 260px;
+    padding-top: 20px;
+    padding-left: 40px;
+    :nth-child(1) {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+    :nth-child(2) {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+}
+}
+
+.fat{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 280px;
+    padding-top: 20px;
+    padding-left: 40px;
+    :nth-child(1) {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+    :nth-child(2) {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+}
+}
+
+
